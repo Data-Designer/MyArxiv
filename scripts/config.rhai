@@ -1,6 +1,6 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Pre-train", "Meta", "Prompt", "Self-Supervised"];
+let titles_model = ["Transfer", "Drug", "Molecular", "Adaptive", "Heterogeneous"]; // Field
+let titles_method = ["Graph", "Semi-supervised", "Domain Adaptation", "Meta", "Prompt", "Self-Supervised", "Contrastive", "Domain Generation", "Few-shot"];
 let titles =  titles_model + titles_method + titles_type;
 let authors_array = ["Xiangnan He", "Wayne Xin Zhao", "Hui Xiong", "Chuan Shi", "Hongzhi Yin", "Qiang Yang", "Irwin King", "Xing Xie", "Wenwu Zhu","Mingsheng Long", "Ming-Ming Cheng", "Jie Tang", "Stephan Günnemann",
 "Yong Li", "Fuzhen Zhuang", "Ji-Rong Wen", "Philip S. Yu", "Lev Arie Ratinov", "Maosong Sun", "Zhiyuan Liu", "Jia Li", "Peng Cui", "Pengfei Liu", "Xiaofei He", "Jindong Wang","Xiaoou Tang", "Jure Leskovec","Kaiming He",
