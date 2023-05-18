@@ -2,17 +2,21 @@ let titles_type = ["Dataset", "Survey", "Review", "Overview"];
 let titles_model = ["Transfer", "Drug", "Molecular", "Adaptive", "Heterogeneous"]; // Field
 let titles_method = ["Graph", "Semi-supervised", "Domain Adaptation", "Meta", "Prompt", "Self-Supervised", "Contrastive", "Domain Generation", "Few-shot"];
 let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Wayne Xin Zhao", "Hui Xiong", "Chuan Shi", "Hongzhi Yin", "Qiang Yang", "Irwin King", "Xing Xie", "Wenwu Zhu","Mingsheng Long", "Ming-Ming Cheng", "Jie Tang", "Stephan Günnemann","Xiangnan He", 
+let authors_array = ["Wayne Xin Zhao", "Hui Xiong", "Chuan Shi", "Hongzhi Yin", "Qiang Yang", "Irwin King", "Xing Xie", "Wenwu Zhu","Mingsheng Long", "Ming-Ming Cheng", "Jie Tang", "Stephan Günnemann","Xiangnan He", "Junchi Yan",
 "Yong Li", "Ji-Rong Wen","Fuzhen Zhuang", "Philip S. Yu", "Lev Arie Ratinov", "Maosong Sun", "Zhiyuan Liu", "Jia Li", "Peng Cui", "Pengfei Liu", "Xiaofei He", "Jindong Wang","Xiaoou Tang", "Jure Leskovec","Kaiming He",
 ];
-
+// conference + journal
 let conferences = [
     // AI
     "AAAI", "AAMAS", "ACM MM", "AISTATS", "ALT", "CEC", "ECAI", "FUZZ IEEE", "GECCO", "ICANN", "ICAPS", "ICCBR", "ICONIP", "ICRA", "ICTAI", "IJCAI", "IJCNN", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "TAAI",
+    // Nature
+    "Nature Machine Intelligence", "Nature Microbiology",
     // CV
-    "3DV", "ACCV", "ACM MM", "BMVC", "CVPR", "ECCV", "ICCV", "ICDAR", "ICIP", "ICME", "ICPR", "IEEE VIS", "MICCAI", "SIGGRAPH", "WACV",
+    "3DV", "ACCV", "ACM MM", "BMVC", "CVPR", "ECCV", "ICCV", "ICDAR", "ICIP", "ICME", "ICPR", "IEEE VIS", "MICCAI", "SIGGRAPH", "WACV", 
+    "TPAMI", "TOG", "TIP", "TVCG", "IJCV", "JMLR", "AI", "TMI",
     // DM
-    "AKBC", "APWeb", "CIKM", "DASFAA", "ECML-PKDD", "ICDE", "ICDM", "ICDT", "KDD", "LREC", "MDM", "PAKDD", "PODS", "RecSys", "SDM", "SIGMOD", "VLDB", "WSDM", "WWW", "EDBT", "CIDR",
+    "AKBC", "APWeb", "CIKM", "DASFAA", "ECML-PKDD", "ICDE", "ICDM", "ICDT", "KDD", "LREC", "MDM", "PAKDD", "PODS", "RecSys", "SDM", "SIGMOD", "VLDB", "WSDM", "WWW", "EDBT", "CIDR", 
+    "TKDE", "TKDD", "TOIS", "JASIST", "KAIS", "IPM" , "JOC",
     // IR
     "ECIR", "ESWC", "ICMR", "ICTIR", "ISWC", "SIGIR",
     // ML
