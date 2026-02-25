@@ -1,23 +1,23 @@
-let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["Transfer", "Drug", "Molecular", "Adaptive", "Heterogeneous", "Long Tail", "Noise", "Cross-domain", "Health", "Large language", "Question"]; // Field
-let titles_method = ["LLM","GNN", "Graph", "Semi-supervised", "Domain Adaptation", "Meta", "Prompt", "Self-Supervised", "Domain Generation", "Few-shot", "Retrieval", "Agent", "Diffusion", "RAG", "Search", "Tool"];
+let titles_type = ["Dataset", "Survey", "Review", "Overview", "Benchmark"];
+let titles_model = ["QA", "Transfer", "Drug", "Molecular", "Heterogeneous", "Long Tail", "Noise", "Cross-domain", "Medical", "Large language", "Question", "Medicine", "Trial", "EHR", "Healthcare"]; // Field
+let titles_method = ["LLM", "GNN", "Graph", "Adaptive", "Semi-supervised", "Domain Adaptation", "Meta", "Prompt", "Self-Supervised", "Domain Generation", "Few-shot", "Retrieval", "Agent", "Diffusion", "RAG", "Search", "Tool", "Test-time", "Reinforcement", "Post-training", "Reasoning", "Memory", "Planning", "CoT", "ICL"];
 let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Wayne Xin Zhao", "Hui Xiong", "Chuan Shi", "Hongzhi Yin", "Qiang Yang", "Irwin King", "Xing Xie", "Chao Huang", "Xiangyu Zhao", "Wenwu Zhu", "Mingsheng Long", "Ming-Ming Cheng", "Jie Tang", "Stephan Günnemann","Xiangnan He", "Junchi Yan",
+let authors_array = ["Wayne Xin Zhao", "Hui Xiong", "Chuan Shi", "Hongzhi Yin", "Qiang Yang", "Irwin King", "Xing Xie", "Chao Huang", "Xiangyu Zhao", "Wenwu Zhu", "Mingsheng Long", "Ming-Ming Cheng", "Jie Tang", "Stephan Günnemann", "Xiangnan He", "Junchi Yan",
 "Yong Li", "Ji-Rong Wen", "Fuzhen Zhuang", "Philip S. Yu", "Lev Arie Ratinov", "Maosong Sun", "Zhiyuan Liu", "Jia Li", "Peng Cui", "Pengfei Liu", "Xiaofei He", "Jindong Wang", "Xiaoou Tang", "Jure Leskovec", "Kaiming He", 
-"Carl Yang", "Shu Wu", "Jimeng Sun", "Yasha Wang", "Fenglong Ma", "Xuejiao Zhao",
+"Carl Yang", "Shu Wu", "Jimeng Sun", "Yasha Wang", "Fenglong Ma", "Xuejiao Zhao", "Xuejiao Zhao", "Junjun He", "Weidi Xie", "Xiaobin Hu", "Jiawei Han", "Yasha Wang", "Wenqi Shi"
 ];
 // conference + journal
 let conferences = [
     // AI
     "AAAI", "AAMAS", "ACM MM", "AISTATS", "ALT", "CEC", "ECAI", "FUZZ IEEE", "GECCO", "ICANN", "ICAPS", "ICCBR", "ICONIP", "ICRA", "ICTAI", "IJCAI", "IJCNN", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "TAAI",
     // Nature
-    "Nature Machine Intelligence", "Nature Microbiology", "Nature Methods", "Nature Medicine", "Nature Methods", "Nature Communication",  "JAMIA", "Cell Patterns", "JMIR Medical Informatics", "Bioinformatics",
+    "Nature Machine Intelligence", "Nature Microbiology", "Nature Methods", "Nature Medicine", "Nature Methods", "Nature Communication",  "JAMIA", "Cell Patterns", "JMIR Medical Informatics", "Bioinformatics", "npj Digital Medicine"
     // CV
     "3DV", "ACCV", "ACM MM", "BMVC", "CVPR", "ECCV", "ICCV", "ICDAR", "ICIP", "ICME", "ICPR", "IEEE VIS", "MICCAI", "SIGGRAPH", "WACV", 
     "TPAMI", "TOG", "TIP", "TVCG", "IJCV", "JMLR", "AI", "TMI",
     // DM
     "AKBC", "APWeb", "CIKM", "DASFAA", "ECML-PKDD", "ICDE", "ICDM", "ICDT", "KDD", "LREC", "MDM", "PAKDD", "PODS", "RecSys", "SDM", "SIGMOD", "VLDB", "WSDM", "WWW", "EDBT", "CIDR", 
-    "TKDE", "TKDD", "TOIS", "JASIST", "KAIS", "IPM" , "JOC",
+    "TKDE", "TKDD", "TOIS", "JASIST", "KAIS", "IPM", "JOC",
     // IR
     "ECIR", "ESWC", "ICMR", "ICTIR", "ISWC", "SIGIR",
     // ML
