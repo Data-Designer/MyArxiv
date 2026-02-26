@@ -11,13 +11,13 @@ let conferences = [
     // AI
     "AAAI", "AAMAS", "ACM MM", "AISTATS", "ALT", "CEC", "ECAI", "FUZZ IEEE", "GECCO", "ICANN", "ICAPS", "ICCBR", "ICONIP", "ICRA", "ICTAI", "IJCAI", "IJCNN", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "TAAI",
     // Nature
-    "Nature Machine Intelligence", "Nature Microbiology", "Nature Methods", "Nature Medicine", "Nature Methods", "Nature Communication",  "JAMIA", "Cell Patterns", "JMIR Medical Informatics", "Bioinformatics", "npj Digital Medicine"
+    "Nature Machine Intelligence", "Nature Microbiology", "Nature Methods", "Nature Medicine", "Nature Methods", "Nature Communication",  "JAMIA", "Cell Patterns", "JMIR Medical Informatics", "Bioinformatics", "npj Digital Medicine",
     // CV
     "3DV", "ACCV", "ACM MM", "BMVC", "CVPR", "ECCV", "ICCV", "ICDAR", "ICIP", "ICME", "ICPR", "IEEE VIS", "MICCAI", "SIGGRAPH", "WACV", 
     "TPAMI", "TOG", "TIP", "TVCG", "IJCV", "JMLR", "AI", "TMI",
     // DM
     "AKBC", "APWeb", "CIKM", "DASFAA", "ECML-PKDD", "ICDE", "ICDM", "ICDT", "KDD", "LREC", "MDM", "PAKDD", "PODS", "RecSys", "SDM", "SIGMOD", "VLDB", "WSDM", "WWW", "EDBT", "CIDR", 
-    "TKDE", "TKDD", "TOIS", "JASIST", "KAIS", "IPM", "JOC",
+    "TKDE", "TKDD", "TOIS", "JASIST", "KAIS", "IPM", "JOC", "ISR", "MISQ",
     // IR
     "ECIR", "ESWC", "ICMR", "ICTIR", "ISWC", "SIGIR",
     // ML
